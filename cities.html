@@ -16,8 +16,18 @@
     crossorigin="anonymous"></script>
   <style>
     .responsive{
-      width: 100%;
-      height: auto;
+      width: 400;
+      height: 500;
+    }
+    .table{
+      border: 2px;
+      padding: 2px;
+    }
+    .btn{
+      
+    }
+    .btn-toolbar{
+      
     }
   </style>
 </head>
@@ -84,6 +94,69 @@
       <img src="erbil.jpg" alt="Erbil">
     </a>
   </div>
+
+  <table class="table" >
+    <caption>Cities, Rivers, and Trees</caption>
+    <thead>
+      <tr>
+        <th scope="col">Letter</th>
+        <th scope="col">City</th>
+        <th scope="col">River</th>
+        <th scope="col">Tree</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">M</th>
+        <td>Moscow</td>
+        <td>Mohawk River</td>
+        <td>Maple Tree</td>
+      </tr>
+      <tr>
+        <th scope="row">I</th>
+        <td>Istanbul</td>
+        <td>Igushik River</td>
+        <td>Inkwood Tree</td>
+      </tr>
+      <tr>
+        <th scope="row">L</th>
+        <td>London</td>
+        <td>La Crosse River</td>
+        <td>Lime Tree</td>
+      </tr>
+      <tr>
+        <th scope="row">L</th>
+        <td>Lima</td>
+        <td>La Moine River</td>
+        <td>Lemon Tree</td>
+      </tr>
+      <tr>
+        <th scope="row">E</th>
+        <td>Erbil</td>
+        <td>Edisto River</td>
+        <td>Elm Tree</td>
+      </tr>
+      <tr>
+        <th scope="row">T</th>
+        <td>Tucson</td>
+        <td>Ta River</td>
+        <td>Tallow Tree</td>
+      </tr>
+    </tbody>
+  </table>
+
+    <div class="btn-toolbar" role="group">
+      <button type="button" class="btn" style="color: green;">M</button>
+      <button type="button" class="btn" style="color: green;">L</button>
+      <button type="button" class="btn" style="color: green;">E</button>
+    </div>
+    <div class="btn-toolbar" role="group">
+      <button type="button" class="btn" style="color: yellow;">I</button>
+      <button type="button" class="btn" style="color: yellow;">L</button>
+    </div>
+    <div class="btn-toolbar" role="group">
+      <button type="button" class="btn" style="color: red;">T</button>
+    </div>
 </body>
 
 </html>
